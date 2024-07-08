@@ -8,9 +8,6 @@ This project utilizes Power BI to analyze Superstore sales data and create inter
 - [Data Source](#data-source)
 - [DAX Queries](#dax-queries)
 - [Dashboards](#dashboards)
-- [Getting Started](#getting-started)
-- [Requirements](#requirements)
-- [Installation](#installation)
 - [Usage](#usage)
   
 ## Project Description
@@ -50,16 +47,27 @@ The Power BI report includes the following dashboards:
 
 ## Overall Sales Data
 - Line chart showing sales trends over time
-- Bar chart displaying sales by region
+- Bar chart displaying sales by top 10 customers
+- bar chart displaying total sales by category
+- Treemap showing total sales by sub-category
+- Yearwise sales slicer
 - KPI visual for total sales and total profit
+- Donut chart showing total sales by salesperson
   
 ## Customer-Centric Analysis
-- Pie chart illustrating customer segments
-- Bar chart showing sales by customer category
-- Table with detailed customer information
+- Bar chart showing top 10 customers
+- Donut chart showing ship mode preferred by customers
+- Map showing total sales by region
+- KPI showing total orders, average shipping time and total products
   
 ## Profit Analysis
 - Line chart showing profit trends over time
 - Bar chart displaying profit by product category
-- Scatter plot analyzing discount vs. profit
+- Pie chart showing profit by region
+- KPI showing total profit and total products.
+
+## Usage
+- Open the Power BI report file (SuperstoreSalesAnalysis.pbix).
+- Explore the various dashboards and interact with the report to gain insights into sales data.
+- Use the slicers to filter data by different criteria such as date range, region, and product category.
 
