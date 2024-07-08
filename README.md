@@ -12,30 +12,54 @@ This project utilizes Power BI to analyze Superstore sales data and create inter
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
+  
 ## Project Description
 The Superstore Sales Analysis Project provides a comprehensive analysis of sales data through three interactive dashboards:
 1. **Overall Sales Data**: Visualizes key sales metrics and trends.
-2. **Customer-Centric Analysis**: Focuses on customer behavior and segmentation.
+2. **Customer Analysis**: Focuses on customer behavior and segmentation.
 3. **Profit Analysis**: Analyzes profit margins and performance.
 
 ## Data Source
 The data for this project is stored in an Excel file named `superstore_sales_data.xlsx`. The Excel file contains various attributes related to sales, including:
+- OrderID
 - Order Date
 - Ship Date
-- Sales
+- Customer ID
+- Customer Name
+- Segment
+- Country
+- City
+- State
+- Postal Code
+- Region
+- Product ID
+- Category
+- Sub-Category
+- Product name
+- sales
 - Quantity
 - Discount
 - Profit
-- Product Category
-- Customer Information
-- Region
+- Shipping time
 
 ## DAX Queries
-DAX (Data Analysis Expressions) is used to create custom calculations and aggregations in Power BI. Some of the key DAX queries used in this project include:
+DAX (Data Analysis Expressions) is used to create custom calculations and aggregations in Power BI.
 
-1. **Total Sales Calculation**:
-   ```dax
-   Total Sales = SUM('Sales Data'[Sales])
+## Dashboards
+The Power BI report includes the following dashboards:
+
+## Overall Sales Data
+- Line chart showing sales trends over time
+- Bar chart displaying sales by region
+- KPI visual for total sales and total profit
+  
+## Customer-Centric Analysis
+- Pie chart illustrating customer segments
+- Bar chart showing sales by customer category
+- Table with detailed customer information
+  
+## Profit Analysis
+- Line chart showing profit trends over time
+- Bar chart displaying profit by product category
+- Scatter plot analyzing discount vs. profit
+
